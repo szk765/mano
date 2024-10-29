@@ -1,0 +1,238 @@
+<html>
+	<head>
+        <meta http-equiv="content-language" content="ja" charset="utf-8">
+		<script src="program.js" charset="utf-8"></script>
+
+        <audio id="sound0" preload="auto">
+            <source src="sound/0.wav" type="audio/wav">
+        </audio>
+        <audio id="sound1" preload="auto">
+            <source src="sound/1.wav" type="audio/wav">
+        </audio>
+        <audio id="sound2" preload="auto">
+            <source src="sound/2.wav" type="audio/wav">
+        </audio>
+        <audio id="sound3" preload="auto">
+            <source src="sound/3.wav" type="audio/wav">
+        </audio>
+        <audio id="sound4" preload="auto">
+            <source src="sound/4.wav" type="audio/wav">
+        </audio>
+        <audio id="sound5" preload="auto">
+            <source src="sound/5.wav" type="audio/wav">
+        </audio>
+        <audio id="sound6" preload="auto">
+            <source src="sound/6.wav" type="audio/wav">
+        </audio>
+        <audio id="sound7" preload="auto">
+            <source src="sound/7.wav" type="audio/wav">
+        </audio>
+        <audio id="sound8" preload="auto">
+            <source src="sound/8.wav" type="audio/wav">
+        </audio>
+        <audio id="sound9" preload="auto">
+            <source src="sound/9.wav" type="audio/wav">
+        </audio>
+        <audio id="sound10" preload="auto">
+            <source src="sound/10.wav" type="audio/wav">
+        </audio>
+        <audio id="sound11" preload="auto">
+            <source src="sound/11.wav" type="audio/wav">
+        </audio>
+        <audio id="sound12" preload="auto">
+            <source src="sound/12.wav" type="audio/wav">
+        </audio>
+        <audio id="sound13" preload="auto">
+            <source src="sound/13.wav" type="audio/wav">
+        </audio>
+        <audio id="sound14" preload="auto">
+            <source src="sound/14.wav" type="audio/wav">
+        </audio>
+        <audio id="sound15" preload="auto">
+            <source src="sound/15.wav" type="audio/wav">
+        </audio>
+        <audio id="sound16" preload="auto">
+            <source src="sound/16.wav" type="audio/wav">
+        </audio>
+        <audio id="sound17" preload="auto">
+            <source src="sound/17.wav" type="audio/wav">
+        </audio>
+        <audio id="sound18" preload="auto">
+            <source src="sound/18.wav" type="audio/wav">
+        </audio>
+        <audio id="sound19" preload="auto">
+            <source src="sound/19.wav" type="audio/wav">
+        </audio>
+        <audio id="sound20" preload="auto">
+            <source src="sound/20.wav" type="audio/wav">
+        </audio>
+        <audio id="sound21" preload="auto">
+            <source src="sound/21.wav" type="audio/wav">
+        </audio>
+        <audio id="sound22" preload="auto">
+            <source src="sound/22.wav" type="audio/wav">
+        </audio>
+        <audio id="sound23" preload="auto">
+            <source src="sound/23.wav" type="audio/wav">
+        </audio>
+        <audio id="sound24" preload="auto">
+            <source src="sound/24.wav" type="audio/wav">
+        </audio>
+        <audio id="sound25" preload="auto">
+            <source src="sound/25.wav" type="audio/wav">
+        </audio>
+        <audio id="sound26" preload="auto">
+            <source src="sound/26.wav" type="audio/wav">
+        </audio>
+        <audio id="sound27" preload="auto">
+            <source src="sound/27.wav" type="audio/wav">
+        </audio>
+        <audio id="sound28" preload="auto">
+            <source src="sound/28.wav" type="audio/wav">
+        </audio>
+        <audio id="sound29" preload="auto">
+            <source src="sound/29.wav" type="audio/wav">
+        </audio>
+        <audio id="sound30" preload="auto">
+            <source src="sound/30.wav" type="audio/wav">
+        </audio>
+        <audio id="sound31" preload="auto">
+            <source src="sound/31.wav" type="audio/wav">
+        </audio>
+        <audio id="sound32" preload="auto">
+            <source src="sound/32.wav" type="audio/wav">
+        </audio>
+        <audio id="sound33" preload="auto">
+            <source src="sound/33.wav" type="audio/wav">
+        </audio>
+        <audio id="sound34" preload="auto">
+            <source src="sound/34.wav" type="audio/wav">
+        </audio>
+        <audio id="sound35" preload="auto">
+            <source src="sound/35.wav" type="audio/wav">
+        </audio>
+        <audio id="sound36" preload="auto">
+            <source src="sound/36.wav" type="audio/wav">
+        </audio>
+        <audio id="sound37" preload="auto">
+            <source src="sound/37.wav" type="audio/wav">
+        </audio>
+        <audio id="sound38" preload="auto">
+            <source src="sound/38.wav" type="audio/wav">
+        </audio>
+        <audio id="sound39" preload="auto">
+            <source src="sound/39.wav" type="audio/wav">
+        </audio>
+        <audio id="sound40" preload="auto">
+            <source src="sound/40.wav" type="audio/wav">
+        </audio>
+        <audio id="sound41" preload="auto">
+            <source src="sound/41.wav" type="audio/wav">
+        </audio>
+        <audio id="sound42" preload="auto">
+            <source src="sound/42.wav" type="audio/wav">
+        </audio>
+        <audio id="sound43" preload="auto">
+            <source src="sound/43.wav" type="audio/wav">
+        </audio>
+        <audio id="sound44" preload="auto">
+            <source src="sound/44.wav" type="audio/wav">
+        </audio>
+        <audio id="sound45" preload="auto">
+            <source src="sound/45.wav" type="audio/wav">
+        </audio>
+	</head>
+
+	<body>
+		<h1>まのかるた（仮）</h1>
+
+		<div>
+            <!-- 操作ボタン -->
+            <button id="rand"
+                style="position: absolute; left:50px;top:80px; width:120px; height:50px" onclick="rand()">
+                ランダム再生<br>（１つ）
+            </button>
+
+            <button id="randall"
+                style="position: absolute; left:200px;top:80px; width:120px; height:50px" onclick="randall()">
+                ランダム再生<br>（全部）
+            </button>
+
+            <button id="stop"
+                style="position: absolute; left:350px;top:80px; width:80px; height:50px" onclick="stop()">
+                ストップ
+            </button>
+
+            <button id="reset"
+                style="position: absolute; left:50px;top:180px; width:80px; height:50px" onclick="reset()">
+                リセット
+            </button>
+
+            <!-- 文字列表示 -->
+            <div style="position: absolute; left:30px;top:370px;">
+                <span id="yomi"></span>
+            </div>
+            <div style="position: absolute; left:220px;top:200px;">
+                <span id="count">/</span>
+            </div>
+            <div style="position: absolute; left:30px;top:350px;">
+                <font size="2" color="lightgray">VOICEVOX:四国めたん</font>
+            </div>
+
+            <!-- 絵札の表示場所 -->
+            <canvas id="ehuda" width="200" height="300"
+            style="position:absolute; left:490px; top:50px; background-color: lightblue"></canvas>
+
+		</div>
+        <div>
+            <!-- 五十音ボタン -->
+            <button id="btn0" style="position: absolute; left:50px;top:400px; width:50px; height:50px" onclick="karuta(0)">あ</button>
+            <button id="btn1" style="position: absolute; left:110px;top:400px; width:50px; height:50px" onclick="karuta(1)">い</button>
+            <button id="btn2" style="position: absolute; left:170px;top:400px; width:50px; height:50px" onclick="karuta(2)">う</button>
+            <button id="btn3" style="position: absolute; left:230px;top:400px; width:50px; height:50px" onclick="karuta(3)">え</button>
+            <button id="btn4" style="position: absolute; left:290px;top:400px; width:50px; height:50px" onclick="karuta(4)">お</button>
+            <button id="btn5" style="position: absolute; left:50px;top:460px; width:50px; height:50px" onclick="karuta(5)">か</button>
+            <button id="btn6" style="position: absolute; left:110px;top:460px; width:50px; height:50px" onclick="karuta(6)">き</button>
+            <button id="btn7" style="position: absolute; left:170px;top:460px; width:50px; height:50px" onclick="karuta(7)">く</button>
+            <button id="btn8" style="position: absolute; left:230px;top:460px; width:50px; height:50px" onclick="karuta(8)">け</button>
+            <button id="btn9" style="position: absolute; left:290px;top:460px; width:50px; height:50px" onclick="karuta(9)">こ</button>
+            <button id="btn10" style="position: absolute; left:50px;top:520px; width:50px; height:50px" onclick="karuta(10)">さ</button>
+            <button id="btn11" style="position: absolute; left:110px;top:520px; width:50px; height:50px" onclick="karuta(11)">し</button>
+            <button id="btn12" style="position: absolute; left:170px;top:520px; width:50px; height:50px" onclick="karuta(12)">す</button>
+            <button id="btn13" style="position: absolute; left:230px;top:520px; width:50px; height:50px" onclick="karuta(13)">せ</button>
+            <button id="btn14" style="position: absolute; left:290px;top:520px; width:50px; height:50px" onclick="karuta(14)">そ</button>
+            <button id="btn15" style="position: absolute; left:50px;top:580px; width:50px; height:50px" onclick="karuta(15)">た</button>
+            <button id="btn16" style="position: absolute; left:110px;top:580px; width:50px; height:50px" onclick="karuta(16)">ち</button>
+            <button id="btn17" style="position: absolute; left:170px;top:580px; width:50px; height:50px" onclick="karuta(17)">つ</button>
+            <button id="btn18" style="position: absolute; left:230px;top:580px; width:50px; height:50px" onclick="karuta(18)">て</button>
+            <button id="btn19" style="position: absolute; left:290px;top:580px; width:50px; height:50px" onclick="karuta(19)">と</button>
+            <button id="btn20" style="position: absolute; left:50px;top:640px; width:50px; height:50px" onclick="karuta(20)">な</button>
+            <button id="btn21" style="position: absolute; left:110px;top:640px; width:50px; height:50px" onclick="karuta(21)">に</button>
+            <button id="btn22" style="position: absolute; left:170px;top:640px; width:50px; height:50px" onclick="karuta(22)">ぬ</button>
+            <button id="btn23" style="position: absolute; left:230px;top:640px; width:50px; height:50px" onclick="karuta(23)">ね</button>
+            <button id="btn24" style="position: absolute; left:290px;top:640px; width:50px; height:50px" onclick="karuta(24)">の</button>
+
+            <button id="btn25" style="position: absolute; left:400px;top:400px; width:50px; height:50px" onclick="karuta(25)">は</button>
+            <button id="btn26" style="position: absolute; left:460px;top:400px; width:50px; height:50px" onclick="karuta(26)">ひ</button>
+            <button id="btn27" style="position: absolute; left:520px;top:400px; width:50px; height:50px" onclick="karuta(27)">ふ</button>
+            <button id="btn28" style="position: absolute; left:580px;top:400px; width:50px; height:50px" onclick="karuta(28)">へ</button>
+            <button id="btn29" style="position: absolute; left:640px;top:400px; width:50px; height:50px" onclick="karuta(29)">ほ</button>
+            <button id="btn30" style="position: absolute; left:400px;top:460px; width:50px; height:50px" onclick="karuta(30)">ま</button>
+            <button id="btn31" style="position: absolute; left:460px;top:460px; width:50px; height:50px" onclick="karuta(31)">み</button>
+            <button id="btn32" style="position: absolute; left:520px;top:460px; width:50px; height:50px" onclick="karuta(32)">む</button>
+            <button id="btn33" style="position: absolute; left:580px;top:460px; width:50px; height:50px" onclick="karuta(33)">め</button>
+            <button id="btn34" style="position: absolute; left:640px;top:460px; width:50px; height:50px" onclick="karuta(34)">も</button>
+            <button id="btn35" style="position: absolute; left:400px;top:520px; width:50px; height:50px" onclick="karuta(35)">や</button>
+            <button id="btn36" style="position: absolute; left:520px;top:520px; width:50px; height:50px" onclick="karuta(36)">ゆ</button>
+            <button id="btn37" style="position: absolute; left:640px;top:520px; width:50px; height:50px" onclick="karuta(37)">よ</button>
+            <button id="btn38" style="position: absolute; left:400px;top:580px; width:50px; height:50px" onclick="karuta(38)">ら</button>
+            <button id="btn39" style="position: absolute; left:460px;top:580px; width:50px; height:50px" onclick="karuta(39)">り</button>
+            <button id="btn40" style="position: absolute; left:520px;top:580px; width:50px; height:50px" onclick="karuta(40)">る</button>
+            <button id="btn41" style="position: absolute; left:580px;top:580px; width:50px; height:50px" onclick="karuta(41)">れ</button>
+            <button id="btn42" style="position: absolute; left:640px;top:580px; width:50px; height:50px" onclick="karuta(42)">ろ</button>
+            <button id="btn43" style="position: absolute; left:400px;top:640px; width:50px; height:50px" onclick="karuta(43)">わ</button>
+            <button id="btn44" style="position: absolute; left:520px;top:640px; width:50px; height:50px" onclick="karuta(44)">を</button>
+            <button id="btn45" style="position: absolute; left:640px;top:640px; width:50px; height:50px" onclick="karuta(45)">ん</button>
+        </div>
+	</body>
+</html>
